@@ -6,7 +6,7 @@ name: Build and deploy ASP.Net Core app to Azure Web App - samplewebapp
 on:
   push:
     branches:
-      - master
+      - uat
   workflow_dispatch:
 
 jobs:
